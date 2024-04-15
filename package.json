@@ -1,0 +1,20 @@
+{
+  "name": "tailwind-study",
+  "version": "1.0.0",
+  "description": "learning process ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "tailwindcss build -i src/assets/css/styles.css -o public/assets/css/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "tailwind-study"
+  },
+  "author": "Alicia Alencar",
+  "license": "ISC",
+  "dependencies": {
+    "live-server": "^1.2.2",
+    "tailwindcss": "^3.4.3"
+  }
+}
